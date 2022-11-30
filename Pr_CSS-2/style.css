@@ -67,7 +67,12 @@ color: pink;
    /*tablet*/
     @media (min-width: 768px) and (max-width: 992px) {
     section{
-        display: inline-flex;  
+        display: inline-flex; 
+        flex-direction:row;
+        flex-wrap:wrap; 
+      }
+      p{
+        flex:120px;
       }
       
     /*mobile*/
