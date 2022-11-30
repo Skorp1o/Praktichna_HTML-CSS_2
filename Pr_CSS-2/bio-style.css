@@ -97,3 +97,65 @@ background-color:aqua}
 background-color:gray}
 #Університет{
 background-color:rgb(80,165,240)}
+
+.r {
+    width: 100%;
+    display: flex;
+    text-align: center;
+
+}
+.r div{
+    display: flex;
+    align-items: stretch;
+}
+
+.infa {
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 0;
+}
+
+a {
+    font-size: 34px;
+    padding: 20px 0;
+}
+
+@media (min-width: 992px) {
+    .row{
+        flex-wrap: wrap;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
