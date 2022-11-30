@@ -70,9 +70,7 @@ color: pink;
         display: inline-flex;  
         flex-wrap: wrap;
       }
-      p{
-        flex: 118px;
-      }
+      
     /*mobile*/
    }
    @media (max-width: 768px) {
