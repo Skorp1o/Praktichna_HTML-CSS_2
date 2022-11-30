@@ -38,27 +38,55 @@
     }
 /*PC*/
     @media (min-width: 992px) {
-        td {
-            font-size: calc(16px + 20%);
+        .col-lg-4 
+        {
+            width: 33.33%;
         }
-        th{
-            font-size: calc(16px + 30%);
+    
+        .col-lg-6 
+        {
+            width: 50%;
+        }
+    
+        td 
+        {
+            font-size: 120%;
+        }
+        th
+        {
+            font-size: 130%;
         }
     }
     /*tablet*/
     @media (min-width: 768px) and (max-width: 992px) {
     
-        td {
-            font-size: calc(16px + 10%);
+        .col-md-6 
+        {
+            width: 50%;
         }
-        th{
-            font-size: calc(16px + 20%);
+    
+        .col-md-12 
+        {
+            width: 100%;
+        }
+        td 
+        {
+            font-size: 110%;
+        }
+        th
+        {
+            font-size: 120%;
         }
     }
     /*mobile*/
     @media (max-width: 768px) {
-        th{
-            font-size: calc(16px + 10%);
+        .col-sm-12 
+        {
+            width: 100%;
+        }
+        th
+        {
+            font-size: 110%;
         }
     }
     
