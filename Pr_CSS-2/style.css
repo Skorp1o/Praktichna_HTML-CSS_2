@@ -93,6 +93,7 @@ color: pink;
     @media (max-width: 768px) {
         .r {
             flex-direction: column;
+            
         }
     
         .col-sm-12 {
