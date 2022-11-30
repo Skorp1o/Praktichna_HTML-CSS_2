@@ -1,0 +1,38 @@
+.num{
+    text-align: right;
+  }
+        h1{
+      text-align:center;
+      font-size:22px;
+    }
+    h2{
+      text-align: center;
+    }
+    a{
+      font-style: italic;
+    }
+    td:nth-child(odd){
+      background-color: gray;
+      color: blue;
+    }
+    table{
+      background-color: gray;
+      color: aqua;
+      border: 1px solid black;
+      width: 1000px;
+      margin-left: 40px;
+    }
+    th{
+      text-align: center;
+      border: 2px solid black;
+      background-color: rgb(44,196,84);
+      color: blue;
+      font-weight: 600;
+    }
+    tr th{
+      color: blue;
+    }
+    td{
+      border: 2px solid black;
+      padding-left: 40px;
+    }
