@@ -57,3 +57,23 @@ color: red;
 A:active {
 color: pink;
 }
+
+/*PC*/
+@media (min-width: 992px) {
+    div{
+      display: flex;  
+    }
+   }
+   /*tablet*/
+   @media (min-width: 768px) and (max-width: 992px) {
+    div{
+        display: flex;  
+      }
+    /*mobile*/
+   }
+   @media (max-width: 768px) {
+    div{
+        display: flex;  
+        flex-direction: column;
+      }
+   }
