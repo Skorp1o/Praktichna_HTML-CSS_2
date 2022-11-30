@@ -60,19 +60,19 @@ color: pink;
 
 /*PC*/
 @media (min-width: 992px) {
-    div{
+    section{
       display: inline-flex;  
     }
    }
    /*tablet*/
-   @media (min-width: 768px) and (max-width: 992px) {
-    div{
+    @media (min-width: 768px) and (max-width: 992px) {
+    section{
         display: inline-flex;  
       }
     /*mobile*/
    }
    @media (max-width: 768px) {
-    div{
+    section{
         display: inline-flex;  
         flex-direction: column;
       }
