@@ -57,7 +57,17 @@ color: red;
 A:active {
 color: pink;
 }
+.r{
+    width: 100%;
+    display: flex;
+    text-align: center;
 
+}
+.infa {
+    margin: 2px;
+    border: 1px solid black;
+    
+}
 /*PC*/
     @media (min-width: 992px) {
         .col-lg-4 {
@@ -66,7 +76,7 @@ color: pink;
     }
    /*tablet*/
         @media (min-width: 768px) and (max-width: 992px) {
-            .row {
+            .r {
                 flex-wrap: wrap;
             }
         
@@ -81,7 +91,7 @@ color: pink;
       
     /*mobile*/
     @media (max-width: 768px) {
-        .row {
+        .r {
             flex-direction: column;
         }
     
