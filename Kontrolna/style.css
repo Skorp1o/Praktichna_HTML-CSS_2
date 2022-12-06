@@ -85,7 +85,7 @@
         background-color: darkslategrey;
         color: #ffffff;
         font-size: 120%;
-        font-family: 'Russo One', serif;
+        font-family: 'Ubuntu', serif;
         align-self:flex-end;
     }
     #id1{
@@ -93,7 +93,7 @@
         background-color:crimson;
         color: #eeff00;
         font-size: 120%;
-        font-family: 'Russo One', serif;
+        font-family: 'Ubuntu', serif;
         align-self:flex-end;
     }
     #id2 {
@@ -101,7 +101,7 @@
         background-color:lightblue;
         color:black;
         font-size: 120%;
-        font-family: 'Russo One', serif;
+        font-family: 'Ubuntu', serif;
         align-self:flex-end;
     }
     #id3{
@@ -109,6 +109,6 @@
         background-color: blue;
         color: pink;
         font-size: 120%;
-        font-family: 'Russo One', serif;
+        font-family: 'Ubuntu', serif;
         align-self:flex-end;
     }
