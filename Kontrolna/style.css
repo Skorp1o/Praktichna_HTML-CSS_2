@@ -29,14 +29,14 @@
     }
 }
    
-.bl-2{
+#bl-2{
     position: relative;
     float: right;
     font-family: 'Lora', sans-serif;
     display: flex;
     flex-wrap: wrap;
 }
-    .a3{
+    #a3{
         background-color: rgb(0, 208, 255);
         display: flex;
         align-content: stretch;
@@ -44,7 +44,7 @@
         align-items: flex-start;
         flex-direction: column-reverse;
     }
-    .a4{
+    #a4{
         background-color:crimson;
         display: flex;
         align-content: stretch;
@@ -52,7 +52,7 @@
         align-items: flex-start;
         flex-direction: column-reverse;
     }
-    .a2{
+    #a2{
         background-color:cornsilk;
         display: flex;
         align-content: stretch;
@@ -60,7 +60,7 @@
         align-items: flex-start;
         flex-direction: column-reverse;
     }
-    .a5{
+    #a5{
         background-color: green;
         display: flex;
         align-content: stretch;
